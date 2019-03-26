@@ -1,0 +1,90 @@
+/* CSS by Aakiem Philippe*/
+
+body {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 2em;
+	color: #000;
+	background-color: #FFD973;
+	padding: 0 40px 0 40px;
+}
+
+/* text ----------------------------  */
+p {
+	letter-spacing: 0.1em;
+	color: #000;
+	margin: 0px;
+	background-color: #3FC1FF;
+}
+h1 {
+	font-size: 24px;
+	padding: 0px;
+	letter-spacing: .5em;
+	line-height: 2em;
+	margin: 0px;
+	
+}
+h2 {
+	font-size: 20px;
+	padding: 0px;
+	letter-spacing: 0.5em;
+	background-color: #3FC1FF;
+	margin: 0px;
+}
+
+/* links ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #000;
+	
+}
+a:visited {
+	font-weight: bold;
+	color: #000;
+	
+}
+a:hover {
+	color: #B29033;
+}
+
+/* lists ----------------------------- */
+ul li {
+	
+	margin-left: 12px;
+	margin-bottom: 0px;
+}
+ol {
+	margin-left: 14px;
+	margin-bottom: 0px;
+}
+
+/* table -------------------------------------- */
+table {
+	border: solid #000 1px;
+}
+td {
+	padding: 6px;
+	border: solid #000 1px;
+}
+th {
+	font-weight: bold;
+	
+	text-align: center;
+	padding: 6px;
+	border: solid #000 1px;
+}
+
+/* borders ------------------------------------ */
+hr {
+	border: solid #2144B2 3px;
+}
+
+img {
+	border: solid #2144B2 3px;
+
+}
+iframe {
+	border: solid #2144B2 3px;
+	padding: 0px;
+	margin: 8px;
+}
