@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#splash {
+	height: 800px;
+    background: url(images/searching.jpg) no-repeat center top fixed;
+   	background-size: cover;
+	
+}
+
+#overview {
+	padding: 40px 0 60px 0;
+   	background-color: #A639FF;
+    
+    font-size: 1.45em;
+    color: #fff;
+}
+
+#video {
+	padding: 40px 0 60px 0;	
+    background: url(images/ranking.jpg) no-repeat center top fixed;
+	
+    background-size: cover;
+
+}
+
+#popularity {
+	padding: 40px 0 60px 0;	
+    background-color: #d48cff;
+	height: 620px;
+    
+}
+
+#footer{
+  	padding: 20px 0;
+    background-color: #a639ff;
+  
+    font-size: 2em;
+}
+
+.container {
+  width: 960px; 
+  margin: 0 auto;
+  overflow: hidden;
+}
+.half_container { 
+  width: 40%;
+  float: left;
+  overflow: hidden;
+  font-size: 2em;
+  margin: 20px;
+  
+}
+
+#navbar{
+	position: fixed;
+    width: 100%;
+	height: 54px;
+	background-color: rgba(255, 255, 255, 0.8); 
+}	
+
+ul#menu {
+	list-style: none; 
+	padding-top: 0px;
+} 
+ul#menu li {
+	float: left; 
+	padding-bottom: 20px;
+} 
+ul#menu li a.button {
+	font-size: 16px;
+	text-decoration: none;
+	
+	padding: 20px 100px 20px 100px; 
+}
+
+ul#menu li a.button:hover {
+	background-color: #d48cff;
+    color: #fff;
+}
+#title-page{
+  width: 100%;
+  padding-top: 200px;
+  color: #fff;
+  text-align: right;
+}
+#title-page h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 80px; 	
+  text-shadow: 3px 3px #fff;
+  color: #000;
+}
+#title-page h3 {
+  font-size: 1em;
+  font-style: italic;
+  margin: 0 40px;
+  padding-bottom: 20px;
+  text-shadow: 2px 2px #fff;
+  color: #000
+}
+
+#credits {
+  text-align: center;	
+}
+#credits table{      
+  margin: 0 auto;
+}
+#credits p {
+  margin: 10px 0;
+}
